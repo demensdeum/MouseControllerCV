@@ -1,8 +1,8 @@
 from HandMotionRecognizer import HandMotionRecognizer
 from DotoolInputOutputController import DotoolInputOutputController
 
-motionRecognizer = HandMotionRecognizer()
 inputOutputController = DotoolInputOutputController()
+motionRecognizer = HandMotionRecognizer()
 
 def motionAdapter(xRatio, yRatio):
     inputOutputController.movePointer(xRatio, yRatio)
